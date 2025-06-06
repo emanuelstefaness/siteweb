@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oi&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="Frete">
+        <p class="frete2">Frete Grátis para todo Brasil em pedidos acima de R$ 399!</p>
+    </header>
+
+    <nav class="navbar bs-body-bg-rgb py-2">
+        <div class="container-fluid">
+          <div class="row align-items-center w-100">
+      
+            
+            <div class="col-4 d-flex">
+                <form class="d-flex w-100" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                  <button type="submit" class="border-0 bg-transparent p-0">
+                    <span class="material-symbols-outlined text-dark">search</span>
+                  </button>
+                </form>
+              </div>
+            
+            <div class="col-4 d-flex justify-content-center">
+              <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.png" width="100" height="50" alt="Logo">
+              </a>
+            </div>
+      
+            
+            <div class="col-4 d-flex justify-content-end gap-3 align-items-center">
+          <button id="openCartBtn" class="open-cart-btn text-decoration-none border-0 bg-transparent p-0 position-relative">
+            <i class="bi bi-cart" style="font-size: 1.5rem; color: #000;"></i>
+            <span id="cartCount" class="cart-count">0</span>
+          </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bs-body-bg-rgb border-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="detalhes.html?id=26" class="text-decoration-none text-dark">
+            <img src="./img/c3.png" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="detalhes.html?id=128" class="text-decoration-none text-dark">
+            <img src="./img/c2.png" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="detalhes.html?id=83" class="text-decoration-none text-dark">
+            <img src="./img/c1.png" class="d-block w-100" alt="...">
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-palavras">
+        <div class="carrosel-palavras">
+          <span>LANÇAMENTOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • MASCULINO  &nbsp;&nbsp;&nbsp;• FEMININO &nbsp;&nbsp;&nbsp; • OUTLET &nbsp;&nbsp;&nbsp; • </span>
+        </div>
+      </div>
+
+      <div class="container text-center my-4 bebas-neue-regular ">
+        <h1 class="bebas-neue-regular display-3 mb-4 text-start">Nossas marcas</h1>
+        <div class="row justify-content-center align-items-center d-flex">
+          <div class="col-2 col-md-2 mb-3">
+            <a href="jordan.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/jordanlogo.png" alt="Jordan">
+              <img class="img-fluid img-hover" src="./img/jordanhover.png" alt="Jordan">
+            </div>
+            </a>
+          </div>
+          <div class="col-2 col-md-2 mb-3">
+            <a href="nike.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/nikelogo.png" alt="Nike">
+              <img class="img-fluid img-hover" src="./img/nikehover.png" alt="Nike">
+            </div>
+            </a>
+          </div>
+          <div class="col-2 col-md-2 mb-3">
+            <a href="adidas.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/adidaslogo.png" alt="Adidas">
+              <img class="img-fluid img-hover" src="./img/adidashover.png" alt="Adidas">
+            </div>
+            </a>
+          </div>
+          <div class="col-2 col-md-2 mb-3">
+            <a href="vans.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/vanslogo.png" alt="Vans">
+              <img class="img-fluid img-hover" src="./img/vanshover.png" alt="Vans">
+            </div>
+            </a>
+          </div>
+          <div class="col-2 col-md-2 mb-3">
+            <a href="new.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/newlogo.png" alt="New Balance">
+              <img class="img-fluid img-hover" src="./img/nbhover.png" alt="New Balance">
+            </div>
+            </a>
+          </div>
+          <div class="col-2 col-md-2 mb-3">
+            <a href="puma.html">
+            <div class="bg-image position-relative">
+              <img class="img-fluid img-default" src="./img/pumalogo.png" alt="Puma">
+              <img class="img-fluid img-hover" src="./img/pumahover.png" alt="Puma">
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="lancamentos1 container-fluid">
+        <div class="lancamentos bebas-neue-regular">
+            LANÇAMENTOS
+        </div>
+    
+        <div class="container-fluid scroll-container d-flex flex-nowrap gap-3 px-3">
+            <div class="card cardaj1 mb-3" style="flex: 1 0 250px;">
+              <a href="detalhes.html?id=7" class="text-decoration-none text-dark">
+                <img src="./img/aj1tye.png" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title bebas-neue-regular">Air Jordan 1 Tie-Dye</h5>
+                    <p class="card-text">A lendária silhueta do Air Jordan 1 retorna em nova colorway.</p>
+                </div>
+                </a>
+            </div>
+        
+            
+            <div class="card cardaj1 mb-3" style="flex: 1 0 250px;">
+                <a href="detalhes.html?id=11" class="text-decoration-none text-dark">
+                <img src="./img/dunk1.png" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title bebas-neue-regular">Parra x Nike SB Dunk Low Pro Abstract Art</h5>
+                    <p class="card-text">Visando o abstrato das paisagens e suas cores preferidas.</p>
+                </div>
+                </a>
+            </div>
+        
+            
+            <div class="card cardaj1 mb-3" style="flex: 1 0 250px;">
+               <a href="detalhes.html?id=10" class="text-decoration-none text-dark">
+                <img src="./img/travis.png" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title bebas-neue-regular">Travis Scott x Nike Air Force 1 Cactus Jack</h5>
+                    <p class="card-text">Homenagem a Houston, capturando a energia da comunidade e a vibe única de Astroworld.</p>
+                </div>
+              </a>
+            </div>
+        
+            
+            <div class="card cardaj1 mb-3" style="flex: 1 0 250px;">
+              <a href="detalhes.html?id=9" class="text-decoration-none text-dark">
+                <img src="./img/futura.png" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title bebas-neue-regular">Dunk Low x Futura Skateboard Bleached</h5>
+                    <p class="card-text">Aqua Azul é um verdadeiro manifesto de arte e ousadia</p>
+                </div>
+            </div>
+        </div>
+            </a>
+        </div>
+      
+        <div class="container-fluid text-start">
+            <h1 class="linhas">LINHAS ESPECIAIS</h1>
+          
+            <div class="carrossel-linhas w-100 h-100">
+              <div id="carouselLinhas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active w-100">
+                    <img src="img/vansupland.png" class="d-block w-100 " alt="vans upland">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded">
+                      <h5>Nova Vans Upland: skate, rua e autenticidade. Explore agora.</h5>
+                      <a href="detalhes.html?id=81" class="btn btn-light btn-sm">Saiba mais</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/jordan_banner.png" class="d-block w-100 object-fit-cover" alt="Produto 2">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded">
+                      <h5>Voe alto com os clássicos — confira a linha Jordan.</h5>
+                      <a href="#" class="btn btn-light btn-sm">Saiba mais</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselLinhas" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselLinhas" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+
+
+        <!-- 1. Link CSS do Swiper -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<div class="container-fluid py-3 containermais">
+<h2 class="text-center bebas-neue-regular">Mais Vendidos</h2>
+
+<!-- 2. Estrutura do Swiper -->
+<div class="swiper maisVendidosSwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+          <a href="detalhes.html?id=25" class="text-decoration-none text-dark">
+        <img src="./img/nike_dunk_low_panda.png" class="card-img-top" alt="Nike Dunk Low Panda" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">Nike Dunk Low Panda</h5>
+          <span class="text-warning">★ ★ ★ ★ ★</span>
+          <small class="text-muted">(520 avaliações)</small>
+          <p class="text-valor">R$ 999,90</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 99,99</strong> sem juros</p>
+        </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+        <a href="detalhes.html?id=51" class="text-decoration-none text-dark">
+        <img src="./img/aj1_chicago.png" class="card-img-top" alt="Air Jordan 1 Chicago" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">Air Jordan 1 Chicago</h5>
+          <span class="text-warning">★ ★ ★ ★ ☆</span>
+          <small class="text-muted">(310 avaliações)</small>
+          <p class="text-valor">R$ 1.799,00</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 179,90</strong> sem juros</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+        <a href="detalhes.html?id=80" class="text-decoration-none text-dark">
+        <img src="./img/vans_old_skool_black.png" class="card-img-top" alt="Vans Old Skool Black" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">Vans Old Skool Black</h5>
+          <span class="text-warning">★ ★ ★ ★ ☆</span>
+          <small class="text-muted">(450 avaliações)</small>
+          <p class="text-valor">R$ 399,90</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 39,99</strong> sem juros</p>
+        </div>
+      </div>
+    </a>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+        <a href="detalhes.html?id=30" class="text-decoration-none text-dark">
+        <img src="./img/adidas_forum_low_white.png" class="card-img-top" alt="Adidas Forum Low White" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">Adidas Forum Low White</h5>
+          <span class="text-warning">★ ★ ★ ★ ☆</span>
+          <small class="text-muted">(214 avaliações)</small>
+          <p class="text-valor">R$ 699,00</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 69,90</strong> sem juros</p>
+        </div>
+      </div>
+    </a>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+        <a href="detalhes.html?id=106" class="text-decoration-none text-dark">
+        <img src="./img/puma_rsx.png" class="card-img-top" alt="Puma RS-X" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">Puma RS-X</h5>
+          <span class="text-warning">★ ★ ★ ★ ☆</span>
+          <small class="text-muted">(180 avaliações)</small>
+          <p class="text-valor">R$ 599,90</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 59,99</strong> sem juros</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card-swiper h-100">
+        <a href="detalhes.html?id=132" class="text-decoration-none text-dark">
+        <img src="./img/new_balance_574.png" class="card-img-top" alt="New Balance 574" />
+        <div class="card-body">
+          <h5 class="card-title bebas-neue-regular">New Balance 574</h5>
+          <span class="text-warning">★ ★ ★ ★ ☆</span>
+          <small class="text-muted">(280 avaliações)</small>
+          <p class="text-valor">R$ 499,90</p>
+          <p class="text-parcel">ou 10x de <strong>R$ 49,99</strong> sem juros</p>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="footer-brand">Hype Shoes</div>
+                <p class="footer-text">Os tênis mais desejados do mundo, direto para os seus pés. Hype Shoes — estilo, exclusividade e autenticidade. </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-md-end">
+                <ul class="footer-links">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Termos de Privacidade</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright text-center">
+            © 2025 HypeShoes. Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- Sidebar do Carrinho -->
+  <div
+    class="offcanvas offcanvas-end custom-cart"
+    tabindex="-1"
+    id="cartSidebar"
+    aria-labelledby="cartLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 id="cartLabel" class="cart-title">Meu carrinho</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <div id="cartItemsContainer">
+        <!-- Os itens serão inseridos aqui dinamicamente via JS -->
+      </div>
+      <div class="cart-total mt-4">
+        <h6>
+          Total: <span class="total-price" id="cartTotal">R$ 0,00</span>
+        </h6>
+      </div>
+    </div>
+  </div>
+
+<!-- 3. Script JS do Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+
+<!-- Bootstrap Bundle JS (inclui Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script type="module" src="carrinho.js"></script>
+</body>
+</html>

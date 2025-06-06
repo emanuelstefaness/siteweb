@@ -1,0 +1,379 @@
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin: 0px;
+}
+
+.Frete{
+    background-color: black;
+    padding: 5px;
+    margin: 0px;
+}
+
+.frete2{
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 1px ;
+    margin: 0px;
+    font-size: 14px
+}
+
+*{
+    margin: 0;
+    padding 0;
+}
+
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.search{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid black;
+    background-color: rgba(245, 245, 245, 0.719);
+    width: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color:black
+}
+
+#searchInput{
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.search label{
+    height: 20px;
+}
+
+.subnav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+ }
+
+ .navbar {
+    border-top: 1px solid #ccc; /* Linha cinza */
+  }
+
+.outlet{
+    color: red !important;
+  }
+
+  .container-palavras {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+  }
+  
+  .carrosel-palavras {
+    display: inline-block;
+    white-space: nowrap;
+    will-change: transform;
+    animation: scrollText 15s linear infinite;
+  }
+  
+@keyframes scrollText {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .carousel-track span {
+    display: inline-block;
+    padding-right: 2rem;
+  }
+
+.container1{
+    background-color: rgb(15, 15, 15);
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500px;
+    font-style: bold;
+    color:black;
+    
+  }
+
+.marcas{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+  
+
+.bg-image {
+    position: relative;
+  }
+  
+.bg-image img {
+    border: 1px solid rgb(19, 19, 19);
+    margin-top: 2px;
+}  
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+.bg-image:hover .img-hover {
+    opacity: 1;
+  }
+  
+.bg-image:hover .img-default {
+    opacity: 0;
+  }
+
+.lancamentos1{
+    background: 
+    linear-gradient(to top, rgb(255, 255, 255) 0 70%, rgb(0, 0, 0) 0% 100%) !important;
+
+}
+.card{
+    margin-top: 20px;
+    border: 2px solid rgb(153, 153, 153) !important;
+    transition: transform 0.4s ease;
+    will-change: transform;
+    min-height: 350px;
+    max-height: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.cardaj1{
+    background: 
+    linear-gradient(to top, rgb(255, 255, 255) 60% 30%, rgba(211, 211, 211, 0.959) 70% 100%) !important;
+}
+
+.cardunk{
+    background: 
+    linear-gradient(to top, rgb(255, 255, 255) 60% 30%, rgb(240, 179, 197) 70% 80%) !important;
+}
+
+.cardaf1{
+    background: 
+    linear-gradient(to top, rgb(255, 255, 255) 60% 30%, rgb(235, 185, 152) 70% 100%) !important;
+}
+
+.lancamentos{
+    padding-top: 30px;
+    margin-left:20 px;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-size: 60px;
+
+}
+
+.card-img-top{
+    width: 12rem;
+    max-width: 12rem;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+    will-change: transform;
+}
+.card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card-text{
+    font-size: 12px;
+    color: rgb(14, 13, 13);
+}
+
+.scroll-container {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+
+  .maisVendidos {
+    background-color: orangered;
+    border-radius: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .linhasesp{
+    width: 400px !important;
+  }
+  
+  .linhas{
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 400px;
+  }
+  .bungee-regular {
+    font-family: "Bungee", sans-serif;
+  }
+  
+  .btn-saiba {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-saiba:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .card-swiper {
+    background-color: #ebebeb;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 167, 167);
+    text-align: center; 
+
+
+  }
+  
+ .containermais{
+    background-color:rgb(255, 255, 255) !important ;
+
+ }
+
+.text-muted{
+    font-size: 8px;
+}
+
+.text-valor{
+    font-style: bold;
+    font-size: 20px;
+}
+
+.text-parcel{
+    color: #434343;
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.card-title{
+    font-size: 21px;
+
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 40px 0 20px;
+    border-top: 1px solid #eee;
+}
+
+.footer-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #6c757d;
+    font-size: 0.9rem;
+    max-width: 300px;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-link {
+    color: #6c757d;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: orangered;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: orangered;
+}
+
+.copyright {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  footer a {
+  color: inherit !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: orangered !important;
+}
+
+.carrinho{
+  color: orangered;
+}
+
+
+.navbarlogo .material-symbols-outlined {
+  color: orangered !important; 
+}
+
+.footer-brand {
+  color: orangered !important;
+}
+
+.text-start{
+  color: orangered;
+}
